@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portfolio - Insha Bal</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+
+</head>
+<body>
+
+  <!-- ===== Navigation Bar ===== -->
+  <header class="site-header">
+    <nav class="nav">
+      <ul class="nav__list">
+        <li><a href="#home"><i class="fas fa-house"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#skills"><i class="fas fa-lightbulb"></i> Skills</a></li>
+        <li><a href="#training"><i class="fas fa-chalkboard-teacher"></i> Training</a></li>
+        <li><a href="#projects"><i class="fas fa-diagram-project"></i> Projects</a></li>
+        <li><a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      </ul>
+       <button id="toggle-btn"><i class="fas fa-moon"></i></button>
+    </nav>
+  </header>
+<!-- ===== Home Section ===== -->
+<section id="home" class="home section">
+  <div class="container home__wrap">
+    <div class="home__text">
+      <h1 class="home__title">Hi, I'm <span>Insha Bal</span></h1>
+      <p class="home__subtitle">Welcome to my portfolio! 🚀</p>
+       <img src="/images/profile.jpg" alt="My Profile" class="avatar"/>
+    </div>
+   <a href="resume-btn">Download Resume</a>
+  </div>
+</section>
+
+
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <div class="about-text">
+      <p>
+       I am a B.Tech Computer Science student with a strong interest in programming. I enjoy building innovative projects that blend creativity with technology, and I aim to apply my knowledge to real-world challenges while continuously learning and growing as a developer.
+      </p>
+    </div>
+    <img src="/images/profile.jpg" alt="About" class="avatar"/>
+  </div>
+</section>
+
+<section id="education" class="education-section">
+  <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+
+  <div class="edu-grid">
+    <div class="edu-item">
+      <img src="/images/schl.jpg" alt="schl" class="photo"/>
+      <h3>10th Standard</h3>
+      <p><strong>School:</strong> S.S.DAV.SEN.SEC.SCHOOL</p>
+      <p><strong>Year:</strong> 2019</p>
+      <p><strong>Percentage:</strong> 95%</p>
+    </div>
+
+    <div class="edu-item">
+       <img src="/images/schl.jpg" alt="schl" class="photo"/>
+      <h3>12th (Non-Medical)</h3>
+      <p><strong>School:</strong> S.S.DAV.SEN.SEC.SCHOOL</p>
+      <p><strong>Year:</strong> 2021</p>
+      <p><strong>Percentage:</strong> 93%</p>
+    </div>
+
+    <div class="edu-item college">
+      <img src="/images/clg.jpg" alt="clg" class="photo"/>
+      <h3>B.Tech in Computer Science & Engineering</h3>
+      <p><strong>University:</strong> Sardar Beant Singh State University, Gurdaspur</p>
+      <p><strong>Duration:</strong> 2022 - 2026</p>
+      <p><strong>CGPA:</strong> 7.54</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section__title"><i class="fas fa-lightbulb"></i> Skills</h2>
+      <ul class="skills">
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js"></i> JavaScript</li>
+        <li><i class="fas fa-code"></i> C</li>
+        <li><i class="fas fa-code"></i> C++</li>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fas fa-robot"></i> Machine Learning</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Training Section ===== -->
+  <section id="training" class="section">
+    <div class="container">
+      <h2 class="section__title"><i class="fas fa-chalkboard-teacher"></i> Training</h2>
+
+      <article class="card">
+        <div class="card__body">
+          <h3 class="card__title">Netsamart, Chandigarh/Mohali</h3>
+          <p class="muted"><em>June 2024 – July 2024 • Duration: 45 days</em></p>
+          <p><strong>Python Development Training</strong> focusing on backend development, API design, and real-world projects.</p>
+          <h4 class="card__subtitle">Key Learnings</h4>
+          <ul class="list">
+            <li>Python basics, OOP concepts, file handling</li>
+            <li>Database integration and API development with <strong>FastAPI</strong></li>
+          </ul>
+          <h4 class="card__subtitle">Projects</h4>
+          <ul class="list">
+            <li><strong>Pizza Delivery System:</strong> Online pizza ordering app using FastAPI.</li>
+            <li><strong>Blog Project:</strong> Blogging site with authentication and post management.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card__body">
+          <h3 class="card__title">Future Finder, Chandigarh/Mohali</h3>
+          <p class="muted"><em>June 2025 – July 2025 • Duration: 45 days</em></p>
+          <p><strong>Machine Learning Training</strong> covering ML techniques and real-world problem-solving.</p>
+          <h4 class="card__subtitle">Key Learnings</h4>
+          <ul class="list">
+            <li>Supervised & Unsupervised Learning algorithms</li>
+            <li>Data preprocessing, feature engineering & model evaluation</li>
+          </ul>
+          <h4 class="card__subtitle">Project</h4>
+          <ul class="list">
+            <li><strong>House Price Prediction:</strong> Regression model to predict house prices.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section__title"><i class="fas fa-diagram-project"></i> Projects</h2>
+
+      <article class="card project">
+        <h3 class="card__title">Pizza Delivery (FastAPI)</h3>
+        <p>Online pizza ordering & tracking backend built with FastAPI.</p>
+        <p><strong>Tech:</strong> Python, FastAPI, SQLite</p>
+      </article>
+
+      <article class="card project">
+        <h3 class="card__title">Blog Website (FastAPI)</h3>
+        <p>Blogging site with authentication, CRUD posts & comments.</p>
+        <p><strong>Tech:</strong> Python, FastAPI, HTML/CSS</p>
+      </article>
+
+      <article class="card project">
+        <h3 class="card__title">House Price Prediction (ML)</h3>
+        <p>Regression model for predicting prices using engineered features.</p>
+        <p><strong>Tech:</strong> Python, scikit-learn, Pandas, NumPy</p>
+      </article>
+
+      <article class="card project">
+        <h3 class="card__title">Personal Portfolio Website</h3>
+        <p>Responsive single-page portfolio website.</p>
+        <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      </article>
+
+      <article class="card project">
+        <h3 class="card__title">Phone Number Tracker</h3>
+        <p>Lookup carrier/region info from number.</p>
+        <p><strong>Tech:</strong> Python</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Certificates Section ===== -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2 class="section__title"><i class="fas fa-certificate"></i> Certificates</h2>
+
+      <div class="grid grid--cards">
+        <article class="card cert">
+          <h3 class="card__title">Python Training Certificate</h3>
+          <p><strong>Issued by:</strong> Netsamart, Mohali</p>
+          <img src="/images/python_certificate.jpg" alt="Python Certificate" class="card__img--wide"/>
+        </article>
+
+        <article class="card cert">
+          <h3 class="card__title">Machine Learning Training Certificate</h3>
+          <p><strong>Issued by:</strong> Future Finder, Chandigarh</p>
+          <img src="/images/ml_certificate.jpg" alt="ML Certificate" class="card__img--wide"/>
+        </article>
+
+        <article class="card cert">
+          <h3 class="card__title">Python Online Course Certificate</h3>
+          <p><strong>Issued by:</strong> Udemy</p>
+          <img src="/images/online_certificate.jpg" alt="Online Python Certificate" class="card__img--wide"/>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section">
+    <div class="container center">
+      <h2 class="section__title"><i class="fas fa-envelope"></i> Contact Me</h2>
+      <ul class="contact">
+        <li>📞 +91 85568 58141</li>
+        <li>📧 <a href="mailto:inshabal66@gmail.com">inshabal66@gmail.com</a></li>
+        <li>🔗 <a href="https://linkedin.com/in/insha-bal" target="_blank">linkedin.com/in/insha-bal</a></li>
+        <li>💻 <a href="https://github.com/insha-bal" target="_blank">github.com/insha-bal</a></li>
+      </ul>
+    </div>
+  </section>
+
+</body>
+</html>
